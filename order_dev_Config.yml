@@ -1,2 +1,8 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profile: dev
 server:
   port: 8010
