@@ -1,0 +1,17 @@
+server:
+  port: 8020
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/orderingsystem?useUnicode=true&characterEncoding=utf-8&relaxAutoCommit=true&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: ordering_Meals_Menu_provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    instance-id: Meals_Menu_provider
+    prefer-ip-address: true
