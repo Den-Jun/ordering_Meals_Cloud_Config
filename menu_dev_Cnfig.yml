@@ -6,8 +6,6 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
-  application:
-    name: ordering_Meals_Menu_provider
 eureka:
   client:
     service-url:
@@ -15,3 +13,6 @@ eureka:
   instance:
     instance-id: Meals_Menu_provider
     prefer-ip-address: true
+mybatis:
+  mapper-locations: classpach:mybatis/*.xml #接口映射文件路径
+  type-aliases-package: com.junbaobao.pojo #映射实体路径
