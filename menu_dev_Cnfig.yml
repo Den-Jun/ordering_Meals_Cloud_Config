@@ -14,5 +14,5 @@ eureka:
     instance-id: Meals_Menu_provider
     prefer-ip-address: true
 mybatis:
-  mapper-locations: classpach:mybatis/*.xml #接口映射文件路径
+  mapper-locations: classpach*:mybatis/*.xml #接口映射文件路径
   type-aliases-package: com.junbaobao.pojo #映射实体路径
