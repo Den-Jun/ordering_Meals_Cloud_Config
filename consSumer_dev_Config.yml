@@ -1,0 +1,11 @@
+server:
+  port: 8030
+eureka:
+  client:
+    service-url: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: Consumer_Clinet
+spring:
+  application:
+    name: ordering_Meals_Consumer_Clinet
