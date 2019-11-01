@@ -15,4 +15,4 @@ eureka:
     prefer-ip-address: true
 mybatis:
   mapper-locations: classpath*:mybatis/dao/*.xml #接口映射文件路径
-  type-aliases-package: com.junbaobao.pojo #映射实体路径
+  type-aliases-package: entity #映射实体路径
