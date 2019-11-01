@@ -6,3 +6,7 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: Consumer_Clinet
+spring:
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
